@@ -83,7 +83,7 @@ ms.locfileid: "66423784"
 |`\1`|与等于名为 `\1` 的组的子字符串匹配。|  
 |`\b`|与字边界匹配。|  
   
- 通过将正则表达式选项设置为 <xref:System.Text.RegularExpressions.Regex.Matches%2A?displayProperty=nameWithType>，调用 <xref:System.Text.RegularExpressions.RegexOptions.IgnoreCase?displayProperty=nameWithType> 方法。 因此，匹配操作不区分大小写，此示例将子字符串“This this”标识为重复。  
+ 通过将正则表达式选项设置为 <xref:System.Text.RegularExpressions.RegexOptions.IgnoreCase?displayProperty=nameWithType>，调用  <xref:System.Text.RegularExpressions.Regex.Matches%2A?displayProperty=nameWithType> 方法。 因此，匹配操作不区分大小写，此示例将子字符串“This this”标识为重复。  
   
  请注意，输入字符串包括子字符串“this? This”。 但是，由于插入标点符号，该子字符串不被标识为重复。  
   
@@ -122,4 +122,4 @@ ms.locfileid: "66423784"
  <xref:System.Text.RegularExpressions?displayProperty=nameWithType>  
  <xref:System.Text.RegularExpressions.Regex?displayProperty=nameWithType>  
  [正则表达式 - 快速参考（以 Word 格式下载）](https://download.microsoft.com/download/D/2/4/D240EBF6-A9BA-4E4F-A63F-AEB6DA0B921C/Regular%20expressions%20quick%20reference.docx)  
- [正则表达式 — 快速参考（以 PDF 格式下载）](https://download.microsoft.com/download/D/2/4/D240EBF6-A9BA-4E4F-A63F-AEB6DA0B921C/Regular%20expressions%20quick%20reference.pdf)
+ [正则表达式 - 快速参考（以 PDF 格式下载）](https://download.microsoft.com/download/D/2/4/D240EBF6-A9BA-4E4F-A63F-AEB6DA0B921C/Regular%20expressions%20quick%20reference.pdf)
