@@ -56,7 +56,7 @@ ms.locfileid: "67135683"
   
  `(` *子表达式* `)`  
   
- 其中 *子表达式* 为任何有效正则表达式模式。 使用括号的捕获按正则表达式中左括号的顺序从一开始从左到右自动编号。 捕获元素编号为零的捕获是由整个正则表达式模式匹配的文本。  
+ 其中 *子表达式* 为任何有效正则表达式模式。 使用括号的捕获按正则表达式中左括号的顺序从`1`开始从左到右自动编号。 捕获元素编号为`0`的捕获是由整个正则表达式模式匹配的文本。  
   
 > [!NOTE]
 >  默认情况下， `(`*子表达式*`)` 语言元素捕获匹配的子表达式。 但是，如果正则表达式模式匹配方法的 <xref:System.Text.RegularExpressions.RegexOptions> 参数包含 <xref:System.Text.RegularExpressions.RegexOptions.ExplicitCapture?displayProperty=nameWithType> 标志，或者如果 `n` 选项应用于此子表达式（参见本主题后面的 [组选项](#group_options) ），则不会捕获匹配的子表达式。  
